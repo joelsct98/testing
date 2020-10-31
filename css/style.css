@@ -131,7 +131,10 @@ footer p {
     padding: 1.4rem 1rem;
   }
 }
-
+a{
+  text-decoration:none;
+  color:white;
+}
 /* Landscape */
 @media(max-height: 500px) {
   .header-content .title, .header-content .text {
