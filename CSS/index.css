@@ -1,6 +1,4 @@
-#footer{
-    background:linear-gradient(90deg, #1c3643, #273b47 25%,#1e5372);
-}
+
 /*
 div[class^="col-"] {
   background: #feca57;
@@ -14,9 +12,6 @@ div[class^="col-"] {
 
 }
 
-#footer a{
-    color:white;
-}
 
 #main .carousel-item img {
     max-height: 70vh;
@@ -48,4 +43,8 @@ div[class^="col-"] {
     color:#97c93e !important;
 }
 
-
+#footer{
+  background:linear-gradient(90deg, #1c3643, #273b47 25%,#1e5372);
+  color:white;
+  
+}
