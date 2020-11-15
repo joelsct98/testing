@@ -13,6 +13,20 @@ div[class^="col-"] {
 }
 
 
+section .container-fluid h1{
+  color: white;
+}
+
+section .container-fluid .row .col-12 h5 strong{
+  color: black;
+}
+section .container-fluid .row .col-12 h5{
+  color: #B0B0AD;
+}
+section .container-fluid .row .col-12 h5 a{
+  color: #B0B0AD;
+}
+
 #main .carousel-item img {
     max-height: 70vh;
     object-fit: cover;

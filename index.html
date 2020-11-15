@@ -107,11 +107,11 @@
 
     <!--proyectos-->
     <section id="Proyectos" class="mt-4 mb-4">
-      <div class="container">
+      <div class="container-fluid text-center bg-dark" style="background-color: orange;">
+        <h1>Proyectos</h1>  
+      </div>
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-12 text-center">
-            <h1>Proyectos</h1>  
-          </div>
         </div>
         <div class="row">
           <div class="col-6 text-center">
@@ -187,6 +187,75 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container-fluid text-center bg-dark" style="background-color: orange;">
+        <h1>Contacto</h1>  
+      </div>
+      <div class="container-fluid mb-2">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h5><strong>Calle:</strong> Calle Soledad Cazorla 25, 28044 Madrid</h5>
+          </div>
+          <div class="col-12 col-lg-6">
+            <h5><strong>GitHub:</strong> <a href="https://github.com/joelsct98">GIHUB</a></h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h5><strong>Email:</strong> joelsct98@gmail.com</h5>
+          </div>
+          <div class="col-12 col-lg-6">
+            <h5><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/joel-chavez-b36b931b1/">LinkedIn</a></h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h5><strong>Telefono:</strong> 685217194</h5>
+          </div>
+        </div>
+      </div>
+
+      <form>
+        <div class="container-fluid mb-4">
+          <div class="row mb-2">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nombre" required>
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Apellido" required>
+            </div>
+          </div>
+
+          <div class="form-group row mb-2">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email (Requerido)</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" required>
+            </div>
+          </div>
+          
+          <div class="form-group row mb-2">
+            <label for="phone" class="col-sm-2 col-form-label">Telefono</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="phone">
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="validationTextarea">Mensaje (Requerido)</label>
+            <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </form>
+ 
     </section>
 
     <!--/proyecto-->
