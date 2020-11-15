@@ -6,6 +6,10 @@ div[class^="col-"] {
   border: 1px solid white;
 } */
 
+body{
+  font-family: Didot;
+}
+
 #header img{
     width: 75px;
     height: 75px;
