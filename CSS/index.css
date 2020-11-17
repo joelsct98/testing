@@ -84,21 +84,21 @@ section .container-fluid .row .col-12 h5 a{
 }
 
 #contenido .container-fluid h3 {  
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #1e5372;
   border-top: 3vh solid #fff;
-  font-size: 6vh;
+  font-size: 40px;
   font-weight: bold;
 }
 
 #contenido .container-fluid .badge{  
-  font-size: 5vh;
+  font-size: 25px;
   border: 1vh solid white;
 }
 
 #contenido .container-fluid p{  
-  font-size: 5vh;
+  font-size: 25px;
 }
 
 #contenido .container-fluid button{  
-  font-size: 5vh;
+  font-size: 25px;
 }
