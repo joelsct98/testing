@@ -74,7 +74,9 @@ section .container-fluid .row .col-12 h5 a{
   font-size:10px;
 }
 
-
+#footer #icons{
+  font-size:7px;
+}
 /*proyectos*/
 
 #main .carousel .carousel-item img {
