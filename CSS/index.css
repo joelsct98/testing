@@ -84,6 +84,7 @@ section .container-fluid .row .col-12 h5 a{
 
 #contenido .container-fluid h3 {  
   border-bottom: 1px solid;
+  border-top: 3vh solid #fff;
   font-size: 6vh;
   font-weight: bold;
 }
