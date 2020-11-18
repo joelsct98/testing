@@ -109,7 +109,7 @@ section .container-fluid .row .col-12 h5 a{
 }
 #contenido .container .row #imagenizq{  
   overflow:hidden;
-}*/
+}
 
 /*proyectos*/
 
@@ -132,9 +132,9 @@ section .container-fluid .row .col-12 h5 a{
 }
 
 #contenido .container-fluid p{  
-  font-size: 25px;
+  font-size: 15px;
 }
 
 #contenido .container-fluid button{  
-  font-size: 25px;
+  font-size: 15px;
 }
