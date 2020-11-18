@@ -86,6 +86,30 @@ section .container-fluid .row .col-12 h5 a{
   font-weight: bold;
 }
 
+#contenido .container .row .col-12 .row .col-12 a {  
+  color: #000;
+}
+#contenido .container .row .col-12 .row .col-12 a:hover {  
+  color: rgb(167, 144, 15);
+  text-decoration:none;
+}
+#contenido .container .row .col-12 .row .col-12 a #palo{  
+  color: rgb(255, 217, 0);
+}
+
+#contenido .container .row #imagenizq:hover img{  
+  -webkit-transform:scale(1.5);
+  transform:scale(1.5);
+}
+#contenido .container .row #imagenizq img{  
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+#contenido .container .row #imagenizq{  
+  overflow:hidden;
+}*/
 
 /*proyectos*/
 
