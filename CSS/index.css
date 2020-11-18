@@ -42,7 +42,7 @@ section .container-fluid .row .col-12 h5 a{
 }
 
 #servicios .carousel-item img {
-  max-height: 50vh;
+  max-height: 45vh;
   object-fit: cover;
   filter: grayscale(20%);
 }
