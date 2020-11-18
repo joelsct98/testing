@@ -78,6 +78,14 @@ section .container-fluid .row .col-12 h5 a{
   font-size:7px;
 }
 
+/*Blog*/
+#contenido .container h1 {  
+  border-bottom: 1px solid #1e5372;
+  border-top: 3vh solid #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
 
 /*proyectos*/
 
