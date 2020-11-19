@@ -73,14 +73,15 @@ section .container-fluid .row .col-12 h5 a{
 
 
 /*Proyectos en el index*/
-#Proyectos .container .row img{
-  border: 2px solid blue;
-  max-width: 14em;
-  max-height: 18em;
-  margin: 1px;
+#Proyectos .container-fluid .row img{
+  border: 1px solid blue;
+  width:100%;
+  max-width:400px;
+  height: 100%;
+  max-height:400px;
 }
 
-#Proyectos .container .row figure{
+#Proyectos .container-fluid .row figure{
   position: relative;
   display: inline-block;
 }
@@ -93,7 +94,7 @@ figcaption {
   right: 1em;
 }
 
-#Proyectos .container .row figure:hover img{
+#Proyectos .container-fluid .row figure:hover img{
   -webkit-filter: grayscale(100%) /*blur(blue)*/;
   filter: grayscale(100%);
   -webkit-transition: .2s ease-in-out;
@@ -101,7 +102,7 @@ figcaption {
   /*border: 2px solid rgb(0, 255, 98);*/
 }
 
-#Proyectos .container .row figure:hover figcaption{
+#Proyectos .container-fluid .row figure:hover figcaption{
   display: block;
 }
 
