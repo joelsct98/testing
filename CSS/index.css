@@ -76,7 +76,8 @@ section .container-fluid .row .col-12 h5 a{
 #Proyectos .container .row img{
   border: 2px solid blue;
   max-width: 14em;
-  height: 18em;
+  max-height: 18em;
+  margin: 1px;
 }
 
 #Proyectos .container .row figure{
