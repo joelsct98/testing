@@ -9,7 +9,7 @@ div[class^="col-"] {
 
 body{
   font-family: Didot;
-  background-color:white;
+  background-image: url("../img/fondo5.jpg");
 }
 
 nav .container-fluid .navbar-brand strong{
@@ -34,6 +34,7 @@ section .container-fluid .row .col-12 h5 a{
   color: #B0B0AD;
 }
 
+/*----------------------index-------------------------*/
 /*carrosel de imagenes index*/
 #main .carousel-item img {
   max-height: 70vh;
@@ -106,32 +107,38 @@ figcaption {
   display: block;
 }
 
-
-/*footer*/
-#footer{
-  background:linear-gradient(90deg, #1c3643, #273b47 25%,#1e5372);
-  color:white;
+/*Contacto index*/
+#contacto h1{
+  color: white;
+}
+#contacto h5 strong{
+  color: white;
+}
+#contacto label{
+  color: white;
 }
 
-#footer a{
-  color:white;
-  font-size:10px;
-}
-
-#footer #icons{
-  font-size:7px;
-}
-
-/*Blog*/
+/*---------------------Blog---------------------*/
 #contenido .container h1 {  
   border-bottom: 1px solid #1e5372;
-  border-top: 3vh solid #fff;
   font-size: 40px;
   font-weight: bold;
+  color: white;
+
+}
+
+#contenido .container h3 {  
+color: white;
+}
+
+#contenido .container .row .col-12 .row .col-12 {  
+  color: white;
+
 }
 
 #contenido .container .row .col-12 .row .col-12 a {  
-  color: #000;
+  color: white;
+  
 }
 #contenido .container .row .col-12 .row .col-12 a:hover {  
   color: rgb(167, 144, 15);
@@ -156,7 +163,7 @@ figcaption {
 }
 
 
-/*proyectos*/
+/*-------------------proyectos-----------------------*/
 #main .carousel .carousel-item img {
   height: 70vh;
   object-fit: cover;
@@ -164,21 +171,36 @@ figcaption {
 }
 
 #contenido .container-fluid h3 {  
-  border-bottom: 1px solid #1e5372;
-  border-top: 3vh solid #fff;
-  font-size: 40px;
+  border-bottom: 1px solid rgb(255, 217, 0);
+  color: white;
+  font-size: 30px;
   font-weight: bold;
 }
 
 #contenido .container-fluid .badge{  
   font-size: 25px;
-  border: 1vh solid white;
 }
 
 #contenido .container-fluid p{  
   font-size: 15px;
+    color: white;
 }
 
 #contenido .container-fluid button{  
   font-size: 15px;
+}
+
+/*-------------------------footer-----------------------*/
+#footer{
+  background:linear-gradient(90deg, #1c3643, #273b47 25%,#1e5372);
+  color:white;
+}
+
+#footer a{
+  color:white;
+  font-size:10px;
+}
+
+#footer #icons{
+  font-size:7px;
 }
