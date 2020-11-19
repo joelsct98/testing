@@ -131,7 +131,7 @@ figcaption {
 
 /*---------------------Blog---------------------*/
 #contenido .container h1 {  
-  border-bottom: 1px solid #1e5372;
+  border-bottom: 1px solid rgb(85, 76, 27);
   font-size: 40px;
   font-weight: bold;
   color: white;
@@ -182,7 +182,7 @@ color: white;
 }
 
 #contenido .container-fluid h3 {  
-  border-bottom: 1px solid rgb(255, 217, 0);
+  border-bottom: 1px solid rgb(85, 76, 27);
   color: white;
   font-size: 30px;
   font-weight: bold;
