@@ -10,6 +10,12 @@ div[class^="col-"] {
 body{
   font-family: Didot;
   background-image: url("../img/fondo5.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #7A4E01;
+
 }
 
 nav .container-fluid .navbar-brand strong{
@@ -72,8 +78,11 @@ section .container-fluid .row .col-12 h5 a{
     color:#97c93e !important;
 }
 
-
 /*Proyectos en el index*/
+#titulo{
+  background-color: black;
+}
+
 #Proyectos .container-fluid .row img{
   border: 1px solid blue;
   width:100%;
@@ -96,10 +105,13 @@ figcaption {
 }
 
 #Proyectos .container-fluid .row figure:hover img{
-  -webkit-filter: grayscale(100%) /*blur(blue)*/;
-  filter: grayscale(100%);
+  /*-webkit-filter: grayscale(50%); /*blur(blue)*/
+  /*filter: grayscale(50%);*/
+  opacity: 0.9;
+  filter: alpha(opacity=1);
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
+  background-color: rgba(0,0,0,0.6);
   /*border: 2px solid rgb(0, 255, 98);*/
 }
 
