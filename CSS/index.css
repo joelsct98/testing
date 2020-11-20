@@ -201,6 +201,14 @@ color: white;
   font-size: 15px;
 }
 
+/*-------------------------sobremi----------------------*/
+#sobremi {
+  text-align:center;
+  color: rgb(255, 217, 0);
+}
+
+
+
 /*-------------------------footer-----------------------*/
 #footer{
   background:linear-gradient(90deg, #1c3643, #273b47 25%,#1e5372);
