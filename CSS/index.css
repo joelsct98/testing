@@ -85,9 +85,9 @@ section .container-fluid .row .col-12 h5 a{
 
 #Proyectos .container-fluid .row img{
   width:100%;
-  max-width:270px;
+  max-width:200px;
   height: 100%;
-  max-height:380px;
+  max-height:270px;
 }
 
 #Proyectos .container-fluid .row figure{
@@ -106,7 +106,7 @@ figcaption {
 #Proyectos .container-fluid .row figure:hover img{
   /*-webkit-filter: grayscale(50%); /*blur(blue)*/
   /*filter: grayscale(50%);*/
-  opacity: 0.9;
+  opacity: 0.8;
   filter: alpha(opacity=1);
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
