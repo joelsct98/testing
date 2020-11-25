@@ -9,13 +9,12 @@ div[class^="col-"] {
 
 body{
   font-family: Didot;
-  background-image: url("../img/fondo5.jpg");
+  background-image: url("../img/fondonegro4.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #000000;
-
 }
 
 #resaltar{

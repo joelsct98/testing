@@ -75,7 +75,7 @@
               <img style="height: 70vh;" src="img\primerconciertorock.jpg" class="d-block w-100" alt="berserck">
               <div class="carousel-caption d-md-block">
                 
-                <span id="resaltar" style="font-size: 35px;">Desarrollador Web y Android</span>
+                <span style="font-size: 35px;">Desarrollador Web y Android</span>
                 <p style="color: white;">Joel Sebastian Chavez Tenorio</p>
                 <button type="button" class="btn btn-dark" onclick="window.location.href='Documentacion/Joel Sebastian Chavez Tenorio.pdf'">Descargar CV</button>
                 <button type="button" class="btn btn-primary" onclick="window.location.href='index.html#contacto'">Contactar</button>
@@ -118,7 +118,7 @@
       <!--proyectos-->
       <section id="Proyectos" class="mb-4">
         <div id="titulo" class="container-fluid text-center">
-          <h1>Proyectos</h1>  
+          <h1 id="resaltar">Proyectos</h1>  
         </div>
         <div class="container-fluid">
           <div class="row">
@@ -186,7 +186,7 @@
 
                 <div class="row align-items-center text-center">
                   <div class="col-md-6 offset-md-6 text-md-right">
-                    <h1>Servicios</h1>
+                    <h1>Conocimientos e Intereses</h1>
                     <p class="d-none d-col-sm-none d-md-block col-lg-block">
                       Soy un <strong id="resaltar">Desarrollador web y Android</strong> (ambas en JAVA) 
                       con experiencia en el desarrollo de software. 
@@ -213,10 +213,12 @@
 
 
       <section id="contacto">
+        
         <div id="titulo" class="container-fluid text-center">
-          <h1>Contacto</h1>  
+          <h1 style="color: orange;">Contacto</h1>  
         </div>
-        <div class="container-fluid mb-2">
+        <div class="container">
+        <div class="container-fluid mb-4">
           <div class="row">
             <div class="col-12 col-lg-6">
               <h5><strong>Calle:</strong> Calle Soledad Cazorla, 28044 Madrid</h5>
@@ -240,45 +242,45 @@
           </div>
         </div>
 
+        
+          <form>
+            <div class="container-fluid mb-4">
+              <div class="row mb-2">
+                <div class="col">
+                  <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
+                </div>
+                <div class="col">
+                  <input type="text" name="apellido" class="form-control" placeholder="Apellido" required>
+                </div>
+              </div>
 
-        <form>
-          <div class="container-fluid mb-4">
-            <div class="row mb-2">
-              <div class="col">
-                <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
+              <div class="form-group row mb-2">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email (Requerido)</label>
+                <div class="col-sm-10">
+                  <input type="email" name="email" class="form-control" id="inputEmail3" required>
+                </div>
               </div>
-              <div class="col">
-                <input type="text" name="apellido" class="form-control" placeholder="Apellido" required>
+              
+              <div class="form-group row mb-2">
+                <label for="phone" class="col-sm-2 col-form-label">Telefono</label>
+                <div class="col-sm-10">
+                  <input type="text" name="phone" class="form-control" id="phone">
+                </div>
               </div>
-            </div>
 
-            <div class="form-group row mb-2">
-              <label for="inputEmail3" class="col-sm-2 col-form-label">Email (Requerido)</label>
-              <div class="col-sm-10">
-                <input type="email" name="email" class="form-control" id="inputEmail3" required>
+              <div class="mb-3">
+                <label for="validationTextarea">Mensaje (Requerido)</label>
+                <textarea class="form-control" name="texto" id="validationTextarea" placeholder="Required example textarea" required></textarea>
               </div>
-            </div>
-            
-            <div class="form-group row mb-2">
-              <label for="phone" class="col-sm-2 col-form-label">Telefono</label>
-              <div class="col-sm-10">
-                <input type="text" name="phone" class="form-control" id="phone">
-              </div>
-            </div>
 
-            <div class="mb-3">
-              <label for="validationTextarea">Mensaje (Requerido)</label>
-              <textarea class="form-control" name="texto" id="validationTextarea" placeholder="Required example textarea" required></textarea>
-            </div>
-
-            <div class="form-group row">
-              <div class="col-sm-10">
-                <button type="submit" class="btn btn-success">Enviar</button>
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <button type="submit" class="btn btn-success">Enviar</button>
+                </div>
               </div>
             </div>
-          </div>
-        </form>
-  
+          </form>
+        </div>
       </section>
       <!--/proyecto-->
 
