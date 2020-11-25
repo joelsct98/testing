@@ -18,6 +18,10 @@ body{
 
 }
 
+#resaltar{
+  color: orange;
+}
+
 nav .container-fluid .navbar-brand strong{
   font-size: 35px;
 }
@@ -140,6 +144,12 @@ figcaption {
 
 #contenido .container h3 {  
 color: white;
+}
+
+
+#contenido .container-fluid p a{  
+  color: orange;
+  text-decoration:none;
 }
 
 #contenido .container .row .col-12 .row .col-12 {  
