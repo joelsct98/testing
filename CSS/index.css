@@ -219,8 +219,14 @@ color: white;
 
 /*-------------------------footer-----------------------*/
 #footer{
-  background:linear-gradient(90deg, #1c3643, #273b47 25%,#1e5372);
+  background: black;
+  opacity: .7;
   color:white;
+}
+#footer:hover{
+  background: black;
+  color:white;
+  opacity: .99;
 }
 
 #footer a{
