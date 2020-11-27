@@ -209,6 +209,17 @@ color: white;
   font-size: 15px;
 }
 
+/*-------------------------comentarios----------------------*/
+
+#contenido .container-fluid .row .col-12 .row .col-12 .row select{  
+  display: inline; 
+  background-color: black; 
+  color: white;
+
+}
+
+
+
 /*-------------------------sobremi----------------------*/
 #sobremi {
   text-align:center;
