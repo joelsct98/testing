@@ -149,6 +149,11 @@ figcaption {
   color: white;
 }
 
+#contenido .container-fluid .row .col-12 p{  
+  font-size: 18px;
+  color: white;
+}
+
 #contenido .container h3 {  
 color: white;
 }
