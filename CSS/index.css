@@ -21,6 +21,10 @@ body{
   color: orange;
 }
 
+#resaltar2{
+  color: rgb(0, 179, 250);
+}
+
 nav .container-fluid .navbar-brand strong{
   font-size: 35px;
 }
@@ -137,6 +141,11 @@ figcaption {
   border-bottom: 1px solid rgb(85, 76, 27);
   font-size: 40px;
   font-weight: bold;
+  color: white;
+}
+
+#contenido .container-fluid p{  
+  font-size: 40px;
   color: white;
 }
 
