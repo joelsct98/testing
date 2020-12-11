@@ -239,13 +239,11 @@ color: white;
 /*-------------------------footer-----------------------*/
 #footer{
   background: black;
-  opacity: .7;
   color:white;
 }
 #footer:hover{
   background: black;
   color:white;
-  opacity: .99;
 }
 
 #footer a{
