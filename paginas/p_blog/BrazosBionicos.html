@@ -7,28 +7,21 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/index.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/icomoon.css">
-     
-    
-    <link rel="preconnect" href="https://shared.coke.com">
-    <link rel="preconnect" href="https://static.coke.com">
-    <link rel="preconnect" href="https://use.typekit.net">
-
-    
+    <link rel="stylesheet" href="..\..\CSS\index.css"/>
     <title>Bayiva</title>
-    <link rel="icon" type="image/png" href="../img/logo.png" />
+    <link rel="icon" type="image/png" href="../../img/logo.png" />
 
-
+    <!--
+    <link rel="stylesheet" id="nouveau-stylesheet-css" href="https://www.virtualsw.com/wp-content/themes/nouveau/css/stylesheet.min.css?ver=5.3.6" type="text/css" media="all">
+    -->
   </head>
-  <body data-spy="scroll" data-target="navbar">
+  <body>
     <!--header-->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid ">
-          <a class="navbar-brand" href="../index.html">
-            <img src="../img/logo.png" alt="logo-bayiba">
-            <strong style="font-size: 35px;">Bayiva</strong>.com
+          <a class="navbar-brand" href="..\..\index.html">
+            <img src="../../img/logo.png" alt="logo-bayiba">
+            <strong>Bayiva</strong>.com
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,31 +29,31 @@
         
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
-              </li>
               <li class="nav-item active">
-                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link" href="..\..\index.html">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="..\blog.html">Blog</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Proyectos Realizados
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">CookTimer</a>
-                  <a class="dropdown-item" href="#">Servicio Web Spring</a>
+                  <a class="dropdown-item" href="..\..\index.html#Proyectos">CookTimer</a>
+                  <a class="dropdown-item" href="..\..\index.html#Proyectos">Servicio Web Spring</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">.Net</a>
+                  <a class="dropdown-item" href="..\..\index.html#Proyectos">.Net</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../index.html#contacto">Contacto <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="..\..\index.html#contacto">Contacto <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="sobremi.html">Sobre Mi <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="..\sobremi.html">Sobre Mi <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-platzi" href="#suscribete">Suscríbete</a> <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-platzi" href="#suscribete" data-toggle="modal" data-target="#modelSus">Suscríbete <span class="sr-only">(current)</span></a>
               </li>
             </ul>
           </div>
@@ -68,118 +61,105 @@
     </nav>
     <!--/header-->
 
-    <!--/proyecto-->
-    <section id="contenido">
-      
-      <div class="container">
-        <h1 >BLOG</h1>
-        <!--secciones de cosas-->
-        <div class="row mb-4">
-          <div id="imagenizq" class="col-12 col-md-6 col-lg-6">
-            <a href="p_blog/BrazosBionicos.html">
-              <img src="..\img/brazoBionico1.jpg" class="card-img" alt="CookTimer">
-            </a>
+    <!--Main-->
+    <main id="main">
+      <div id="carousel" class="carousel slide carousel-fade mb-4" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="../../img/inteligencia-2.png" alt="Hawaii 1">
           </div>
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class="row">
-              <div class="col-12">
-                <a href="#">
-                  <span id="palo">| </span>Ciencia y tecnología<span id="palo"> |</span>
-                </a><br>   
-              </div>
-              <div class="col-12">
-                <h3>Cambiar tu brazo por un brazo biónico</h3>
-              </div> 
-              <div class="col-12">
-                Realmente parece ciencia ficción, pero, es una realidad 
-                hoy en día. Esto se consigue, por medio de una 
-                interpretación de las señales eléctricas enviadas desde 
-                el cerebro por medio de las fibras musculares. Si sigues 
-                leyendo te explicare como funciona y algunos usuarios 
-                con estas extremidades biónicas 
-                <br><br>              
-              </div>
-              <div class="col-12">
-                <a href="p_blog/GenesCerebroHumano.html">
-                  <button type="button" class="btn btn-success float-right">Conocer más</button>
-                </a>              
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../../img/inteligencia-1.jpg" alt="Hawaii 2">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../../img/inteligencia-3.jfif" alt="Hawaii 3">
+          </div>
+          <div class="overlay">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-6 offset-md-6 text-center text-md-right">
+                  <h1>Cambiar tu brazo por un brazo biónico</h1>
+                  <p class="d-md-block">
+                    Realmente parece ciencia ficción, pero, es una 
+                    realidad hoy en día. Esto se consigue, por medio 
+                    de una interpretación de las señales eléctricas 
+                    enviadas desde el cerebro por medio de las fibras 
+                    musculares. Si sigues leyendo te explicare como 
+                    funciona y algunos usuarios con estas extremidades 
+                    biónicas 
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
-        <!--secciones de cosas-->
-        <div class="row mb-4">
-          <div id="imagenizq" class="col-12 col-md-6 col-lg-6">
-            <a href="p_blog/GenesCerebroHumano.html">
-              <img src="..\img/GenesCerebroHumano1.jpg" class="card-img" alt="CookTimer">
-            </a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class="row">
-              <div class="col-12">
-                <a href="#">
-                  <span id="palo">| </span>Ciencia y tecnología<span id="palo"> |</span>
-                </a><br>   
-              </div>
-              <div class="col-12">
-                <h3>Mejorando animales con genética humana</h3>
-              </div> 
-              <div class="col-12">
-                Hace poco leí un artículo hablando de cómo han encontrado
-                el <strong id="resaltar">GEN</strong> que produce que el cerebro humano 
-                <strong id="resaltar">Crezca Exponencialmente</strong>
-                en el Desarrollo del feto, y como han conseguido replicar esta 
-                característica en unos <strong id="resaltar">Titíes</strong>. 
-                Si sigues leyendo podemos hablar de él
-                <br><br>              
-              </div>
-              <div class="col-12">
-                <a href="p_blog/GenesCerebroHumano.html">
-                  <button type="button" class="btn btn-success float-right">Conocer más</button>
-                </a>              
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--secciones de cosas-->
-        <div class="row mb-4">
-          <div id="imagenizq" class="col-12 col-md-6 col-lg-6">
-            <a href="p_blog/ComputacionCuantica.html">
-              <img src="..\img/inteligencia-2.png" class="card-img" alt="CookTimer">
-            </a>
-          </div>
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class="row">
-              <div class="col-12">
-                <a href="#">
-                  <span id="palo">| </span>Ciencia y tecnología<span id="palo"> |</span>
-                </a><br>   
-              </div>
-              <div class="col-12">
-                <h3>Computación Cuántica</h3>
-              </div>
-              <div class="col-12">
-                Empezando por lo básico. En que se basa la Computación
-                Cuántica. Los ordenadores actuales se basan en los <strong id="resaltar">Bits</strong>
-                <i id="resaltar"> "ausencia  y presencia de luz"</i> que se transforma en 0 y 1.
-                En la <strong id="resaltar">Computación Cuántica</strong> hablamos de 3 estados <i id="resaltar">"ausencia 
-                de luz, presencia de luz y los dos estados a la vez"</i>
-                es un poco complicado al principio, pero si sigues leyendo
-                te lo explicare fácilmente<br><br>              
-              </div>
-              <div class="col-12">
-                <a href="p_blog/ComputacionCuantica.html">
-                  <button type="button" class="btn btn-success float-right">Conocer más</button>
-                </a>              
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
-    </section>
+    </main>
+    <!--/Main-->
+
+    <!--cuerpo-->
+      <section id="contenido">
+        <div class="container-fluid ">
+          <h3>Cambiar tu brazo por un brazo biónico</h3>
+          <p>
+            Los brazos biónicos no se centran solo en el movimiento, 
+            si no también en el tacto.
+            <br><br>
+            Este avance se logro a principios de este año, y se 
+            produce por medio de un sistema que consigue amplificar 
+            las señales nerviosas del cuerpo (como si fueran extensiones 
+            del pelo, pero con los nervios del brazo).
+            <br><br>
+            Y la usabilidad, para cada usuario, se simplifica mucho, 
+            implementando inteligencia artificial dentro del brazo, 
+            este puede aprender de ti, de tus necesidades y manías.
+            <br><br>
+            El secreto de como funciona este brazo
+            <br><br>
+            No funciona como lo podríamos imaginar, que lo controlamos 
+            con la mente como si fueramos un receptor de wifi, NO. 
+            <br><br>
+            En los pacientes con brazos amputados, son colocados una 
+            serie de electrodos en las fibras musculares que componen los 
+            movimentos de las manos.
+            <br><br>
+            Y al tu querer mover la mano, brazo u hombro se mueven una 
+            serie de tendones y fibras musculares. Esto provoca el 
+            movimiento de la mano. Por medio de programas, que 
+            interpretan estas señales, se produce el movimiento.
+            <br><br>
+            Ahora mismo, los prototipos son basicos (te permite realizar
+            trabajos normales "escribir, lavar los platos, usar el movil, etc.."
+            pero aun no te permitiria levantar grandes pesos o por ejemplo boxear)
+            Teniendo esto en cuenta, yo creo que en unos pocos años podriamos realizar 
+            deportes de contacto y hacer cosas que podria hacer un brazo normal 
+            y a la velocidad que avanza la ciencia... imagina las posibilidades...
+            <br><br>
+            En la actualidad tenemos existen algunas personas, pero una en 
+            particular, la entrevistaron en el hormigero, que tiene una 
+            prótesis funcional. En su momento era la mas avanzada y podeis verla 
+            en accion <a href="https://www.youtube.com/watch?v=LhDDj5DS8jQ" id="resaltar">aqui</a>
+            <br><br>
+
+            Entre posibilidades de compra tambien tenemos una prótesis de 
+            la gama de juegos de <a href="https://www.milenio.com/virales/metal-gear-solid-hombre-discapacidad-brazo-bionico-venom-snake" id="resaltar">metal gears solid</a>.
+            <br><br>
+            Cuando salga la prótesis de <span id="resaltar">BUKI</span>, sere el primero en comprarla!
+            <br><br>
+            <img style="width: 100%; height: 30%;" src="../../img/BUKY.jpg">
+            
+
+            Espero que te haya gustado.
+            <br><br>
+            Gracias por leerme!
+            <br><br>
+            <a href="https://cadenaser.com/ser/2020/03/04/ciencia/1583339914_348670.html">
+                Referencias de artículos 
+            </a><br>
+          </p>
+        </div>
+      </section>
+    <!--/cuerpo-->
 
     <!--footer-->
     <footer id="footer">
@@ -196,12 +176,12 @@
                     <div class="row">
                       <div class="col-4">
                         <a id="icons" href="https://github.com/joelsct98">
-                          <img src="../img/github1.png"  width="30em" height="30em">
+                          <img src="../../img/github1.png"  width="30em" height="30em">
 
                           </a>
                       </div>
                       <div class="col-4">
-                        <a  id="icons" href="https://www.linkedin.com/in/joel-chavez-b36b931b1/">
+                        <a id="icons" href="https://www.linkedin.com/in/joel-chavez-b36b931b1/">
                           <svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" viewBox="0 0 34 34" class="global-nav__logo">
                             <title>LinkedIn</title>
                                       <g>
@@ -211,7 +191,7 @@
                         </a>
                       </div>
                       <div class="col-4">
-                        <a  id="icons" href="..\.">
+                        <a id="icons" href="http://bayiva.com/.">
                           <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-bootstrap-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
                           </svg>
@@ -235,19 +215,19 @@
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                     </svg>
-                    <a   href="../index.html">Home</a>
+                    <a  href="../../index.html">Home</a>
                   </div>
                   <div class="col-12">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                     </svg>
-                    <a   href="blog.html">Blog</a>
+                    <a  href="../blog.html">Blog</a>
                   </div>
                   <div class="col-12">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                     </svg>
-                    <a   href="../index.html#contacto">Contacto</a>
+                    <a  href="../../index.html#contacto">Contacto</a>
                   </div>
                 </div>
               </div>
@@ -264,19 +244,19 @@
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                     </svg>
-                    <a   href="../index.html">Desarrollador Web</a>
+                    <a  href="../../index.html">Desarrollador Web</a>
                   </div>
                   <div class="col-12">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                     </svg>
-                    <a   href="../index.html">Desarrollador Android</a>
+                    <a  href="../../index.html">Desarrollador Android</a>
                   </div>
                   <div class="col-12">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                     </svg>
-                    <a   href="../index.html">Gestion Base de Datos</a>
+                    <a  href="../../index.html">Gestion Base de Datos</a>
                   </div>
                 </div>
               </div>
@@ -293,19 +273,19 @@
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
                     </svg>
-                    <a   href="../index.html#contacto">joelsct98@gmail.com</a>
+                    <a  href="../../index.html#contacto">joelsct98@gmail.com</a>
                   </div>
                   <div class="col-12">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
                     </svg>
-                    <a   href="../index.html#contacto">+34 685 21 71 94</a>
+                    <a  href="../../index.html#contacto">+34 685 21 71 94</a>
                   </div>
                   <div class="col-12">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-signpost-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path d="M7 1.414V4h2V1.414a1 1 0 0 0-2 0zM1 5a1 1 0 0 1 1-1h10.532a1 1 0 0 1 .768.36l1.933 2.32a.5.5 0 0 1 0 .64L13.3 9.64a1 1 0 0 1-.768.36H2a1 1 0 0 1-1-1V5zm6 5h2v6H7v-6z"/>
                     </svg>
-                    <a   href="../index.html#contacto">C/ Soledad Cazorla</a>
+                    <a  href="../../index.html#contacto">C/ Soledad Cazorla</a>
                   </div>
                 </div>
               </div>
@@ -320,8 +300,45 @@
       </div>
     </footer>
     <!--/footer-->
+    
+    <!--Modal-->
+    <div class="modal fade" id="modelSus" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Quieres Recibir Notificaciones</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>  
+              </div>
+            </form>
+            <div class="alert alert-success" role="alert">
+              Pronto te llegara un correo!
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary">Suscribirse</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/Modal-->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
   </body>
 </html>
